@@ -15,4 +15,5 @@ int main(){
     swap(a,b);
     cout << a << " " << b;
     cout << "test" << endl;
+    cout << "test 22/8" << endl;
 }
