@@ -4,8 +4,9 @@ using namespace std;
 
 class Maytinh
 {
-public:
+private: 
     int chieuDai{20};
+public:
     int chieuRong{10};
     // string tenHang;
     int getLength() { return chieuDai; }
@@ -20,7 +21,7 @@ public:
 int main()
 {
     MayAsus may1;
-    may1.chieuDai = 5;
+    // may1.chieuDai = 5;
     int a{0};
     a = may1.getLength();
     cout << a << endl;
